@@ -2,6 +2,8 @@ syntax = "proto2";
 
 package unixfs.pb;
 
+option go_package = ".;unixfs_pb";
+
 message Data {
 	enum DataType {
 		Raw = 0;

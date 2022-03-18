@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	proto "github.com/gogo/protobuf/proto"
 	dag "github.com/ipfs/go-merkledag"
+	proto "google.golang.org/protobuf/proto"
 
 	ipld "github.com/ipfs/go-ipld-format"
 	pb "github.com/ipfs/go-unixfs/pb"

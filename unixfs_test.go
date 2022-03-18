@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	proto "github.com/gogo/protobuf/proto"
+	proto "google.golang.org/protobuf/proto"
 
 	pb "github.com/ipfs/go-unixfs/pb"
 )
